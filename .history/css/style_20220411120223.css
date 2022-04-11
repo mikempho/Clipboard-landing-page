@@ -1,0 +1,136 @@
+/* Universal styling */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    Font-size: 18px;
+    font-family: Bai-Jamjuree;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Primary colors */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    /* Neutral colors */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    /* Spacing */
+    --container-padding: 4%;
+}
+
+@font-face {
+    font-family: Bai-Jamjuree;
+    src: url(/Assets/Fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+
+h1, h2, h3{
+    color: var(--Dark-Grayish-Blue);
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+ 
+/* header section */
+
+.header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin: 8rem 0 5rem 0;
+}
+
+/* hero section */
+.hero, .section-5{
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-bottom: 8rem;
+}
+
+.buttons{
+    margin-top: 2rem;
+}
+.buttons a {
+    display: inline-block;
+    padding: 12px 15px;
+    width: 92%;
+    margin: 12px 0;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.iOS-btn {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 2px 2px 0px 1px rgba(17, 140, 122, 0.9);
+
+}
+
+.mac-btn {
+    background-color: var(--Light-Blue);
+    box-shadow: 2px 2px 0px 1px rgba(37, 58, 216, 0.81);
+
+}
+
+/* Section-1 */
+
+.section-1 {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-bottom: 8rem;
+}
+
+.feature-img, .mobile-tablet-screen {
+    margin-top: 60px;
+    width: 92%;
+}
+
+/* Section-2 */
+
+.section-2 {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);    margin-bottom: 8rem;
+}
+
+/* Section-3 */
+.section-3 {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-bottom: 8rem;
+}
+
+.feature-icons {
+    margin-top: 30px;
+}
+
+.list-of-features {
+    margin-top: 60px; 
+    padding: 0%;
+}
+
+/* Section 4 */
+
+.section-4 {  
+    margin-bottom: 8rem;
+}
+
+.company-logos{
+    padding:0%;
+}
+
+.company-logos li {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: rgb(244, 244, 244);
+    padding-top: 60px;
+}

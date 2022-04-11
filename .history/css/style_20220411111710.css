@@ -1,0 +1,92 @@
+/* Universal styling */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    Font-size: 18px;
+    font-family: Bai-Jamjuree;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Primary colors */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    /* Neutral colors */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    /* Spacing */
+    --container-padding: 4%;
+}
+
+@font-face {
+    font-family: Bai-Jamjuree;
+    src: url(/Assets/Fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+
+h1, h2, h3{
+    color: var(--Dark-Grayish-Blue);
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+ 
+/* header section */
+
+.header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin: 8rem 0 5rem 0;
+}
+
+/* hero section */
+.hero {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+}
+
+.buttons{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+.buttons a {
+    display: inline-block;
+    padding: 12px 15px;
+    width: 92%;
+    margin: 12px 0;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.iOS-btn {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 2px 2px 0px 1px rgba(17, 140, 122, 0.9);
+
+}
+
+.mac-btn {
+    background-color: var(--Light-Blue);
+    box-shadow: 2px 2px 0px 1px rgba(37, 58, 216, 0.81);
+
+}
+
+/* Section-1 */
+
+.section-1 {
+    padding: var(--container-padding);
+}
+
+.feature-img {
+    margin-top: 60px;
+    width: 92%;
+}

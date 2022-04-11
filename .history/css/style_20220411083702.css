@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    Font-size: 18px;
+    font-family: Bai-Jamjuree;
+}
+
+.header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Bai-Jamjuree;
+    src: url(/Assets/Fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    Font-size: 18px;
+    font-family: Bai-Jamjuree;
+    font-weight: 600;
+}
+
+.header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

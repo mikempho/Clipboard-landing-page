@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    Font-size: 18px;
+    font-family: Bai-Jamjuree;
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root {
+    /* Primary colors */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    /* Neutral colors */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+@font-face {
+    font-family: Bai-Jamjuree;
+    src: url(/Assets/Fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+ 
+/* header section */
+
+.header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin: 8rem 0 5rem 0;
+}
